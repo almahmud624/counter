@@ -9,7 +9,7 @@ buttons.forEach((btn) => {
   btn.addEventListener("click", (e) => {
     const styles = e.currentTarget.classList;
     if (styles.contains("decrease-btn")) {
-      count--;
+      count > 0 ? count-- : "";
     } else if (styles.contains("increase-btn")) {
       count++;
     } else {

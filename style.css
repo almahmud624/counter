@@ -20,4 +20,5 @@ main {
   border-color: #777;
   font-size: 1em;
   font-weight: bold;
+  cursor: pointer;
 }
